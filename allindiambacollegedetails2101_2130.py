@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/st-mary-s-engineering-college-ranga-reddy-61307",
-  "https://www.shiksha.com/college/secab-institute-of-engineering-and-technology-siet-bijapur-3971",
-  "https://www.shiksha.com/college/guruvayurappan-institute-of-management-coimbatore-20120",
-  "https://www.shiksha.com/college/sachdeva-institute-of-technology-mathura-25290",
-  "https://www.shiksha.com/college/annex-college-center-for-technical-and-management-studies-salt-lake-city-kolkata-26382",
-  "https://www.shiksha.com/college/jd-institute-of-fashion-technology-brigade-road-brigade-road-bangalore-36093",
-  "https://www.shiksha.com/college/lucknow-model-institute-of-technology-and-management-36369",
-  "https://www.shiksha.com/college/sardar-bhagat-singh-college-of-technology-and-management-sbsctm-lucknow-37624",
-  "https://www.shiksha.com/college/sasurie-academy-of-engineering-coimbatore-42686",
-  "https://www.shiksha.com/college/karnal-institute-of-technology-and-management-kurukshetra-42775",
-  "https://www.shiksha.com/college/shree-ram-mulkh-institute-of-engineering-and-technology-ambala-43305",
-  "https://www.shiksha.com/college/skywings-academy-of-aviation-and-tourism-kochi-48795",
-  "https://www.shiksha.com/college/guru-nanak-institute-of-management-and-technology-ludhiana-52742",
-  "https://www.shiksha.com/college/hoshiarpur-institute-of-management-and-technology-56913",
-  "https://www.shiksha.com/college/ufly-international-new-dehli-connaught-place-delhi-57455",
-  "https://www.shiksha.com/college/kmm-institute-of-technology-and-science-tirupati-60568",
-  "https://www.shiksha.com/college/bansal-institute-of-research-and-technology-bansal-group-of-institutes-bhopal-61929",
-  "https://www.shiksha.com/college/apex-institute-of-management-and-science-jaipur-62613",
-  "https://www.shiksha.com/college/aditya-degree-college-for-women-rajahmundry-67189",
-  "https://www.shiksha.com/college/chaitanya-bharathi-institute-of-technology-kadapa-71151",
+  "https://www.shiksha.com/college/nips-hotel-management-ranchi-63265",
+  "https://www.shiksha.com/university/konkan-krishi-vidyapeeth-ratnagiri-64841",
+  "https://www.shiksha.com/college/shri-vivekananda-institute-of-science-guntakal-68801",
+  "https://www.shiksha.com/college/craft-development-institute-srinagar-71315",
+  "https://www.shiksha.com/college/gandhi-institute-of-management-studies-rayagada-71681",
+  "https://www.shiksha.com/college/k-k-parekh-institute-of-management-studies-amreli-72541",
+  "https://www.shiksha.com/college/new-directions-international-institute-of-management-begumpet-hyderabad-30348",
+  "https://www.shiksha.com/college/alwar-school-of-business-asbc-visakhapatnam-31033",
+  "https://www.shiksha.com/college/c-m-institute-of-management-sciences-and-technology-gorakhpur-37625",
+  "https://www.shiksha.com/college/seshachala-institute-of-technology-chittoor-43268",
+  "https://www.shiksha.com/college/rayat-bahra-group-of-institutes-ropar-campus-47376",
+  "https://www.shiksha.com/college/vivekanandha-institute-of-information-and-management-studies-vivekanandha-educational-institutions-for-women-namakkal-57323",
+  "https://www.shiksha.com/college/ufly-international-bangalore-jayanagar-57453",
+  "https://www.shiksha.com/college/sanskaar-college-of-management-and-computer-applications-allahabad-60023",
+  "https://www.shiksha.com/college/nashik-gramin-shikshan-prasarak-mandal-brahma-valley-institute-of-management-64639",
+  "https://www.shiksha.com/college/tdl-college-of-technology-and-management-lucknow-125981",
+  "https://www.shiksha.com/college/haridwar-education-college-kanya-gurukul-campus-134391",
+  "https://www.shiksha.com/college/shrimad-rajchandra-institute-of-management-and-computer-application-surat-146579",
+  "https://www.shiksha.com/college/preston-college-gwalior-147243",
+  "https://www.shiksha.com/college/anant-institute-of-business-studies-ashoknagar-147481",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1991
+    c_count =2271
 
     try:
         for base_url in BASE_URL:
